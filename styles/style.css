@@ -290,6 +290,87 @@ nav {
     background-size: cover;
     height: 425px;
 }
+/* Join the colourful bunch css section */
+.joinp {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+.join-content {
+    max-width: 830px;
+    margin: auto;
+}
+
+.join-content .section-header h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    gap: 0;
+    width: 100%;
+}
+
+input {
+    font-size: 1em;
+    color: var(--text-color);
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+}
+
+input[type=email] {
+    width: 70%;
+    border-radius: 3px 0 0 3px;
+}
+
+input[type=submit] {
+    width: 30%;
+    color: #ffffff;
+    background-color: var(--accent-color);
+    border-radius: 0 3px 3px 0;
+}
+
+/* Footer css section */
+footer {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.footer-cnt {
+    display: grid;
+    grid-template-columns: 360px 85px 130px 216px;
+    justify-content: space-between;
+}
+
+.footer-brand img {
+    width: 135px;
+    margin-bottom: 20px;
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    font-size: 1em;
+    color: var(--text-color);
+}
+
+.icon-group {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
 
 
 
