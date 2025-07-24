@@ -26,6 +26,7 @@ body {
     max-width: 80%;
     margin: auto;
     margin-bottom: 50px;
+
 }
 
 .section-header h2 {
@@ -251,10 +252,10 @@ nav {
 }
 
 .deals-item button {
+    border-bottom: 2px solid #fff;
     padding: 0;
     background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #fff;
+    border: none;   
     color: #ffffff;
     font-size: 1em;
     font-weight: 600;
@@ -277,25 +278,25 @@ nav {
     height: 200px;
 }
 
-.ana-plant {   
+.ana-plant {
+    height: 200px;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
+    background-size: cover;    
 }
 
 .zobo-plant {  
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-position: center center;    
     background-size: cover;
     height: 425px;
+    background-repeat: no-repeat;
 }
 /* Join the colourful bunch css section */
-.joinp {
-    background-position: center center;
+.joinp {  
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
+    background-position: center center;
 }
 
 .join-content {
@@ -373,4 +374,192 @@ footer {
 }
 
 
+/* Mobile Resposive section*/
+
+@media screen and (max-width:576px) {
+
+    /* basic CSS */
+    .lover-part,
+    .plants-part,   
+    .deals-part {
+        margin: 0 15px;
+    }
+
+    .section-header h2 {
+        margin-bottom: 15px;
+        font-size: 1.5em;   
+    }
+
+    .mid-section-header {
+        max-width: 96%;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 22px;
+    }
+
+    /* Nav items */
+    nav {
+
+        margin: 10px 15px;
+    }
+
+    .brand img {
+        width: 65px;
+    }
+
+    .main-menu .menu {
+        display: none;
+    }
+
+    /* Banner */
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding: 65px 0;
+    }
+
+    .banner-image,
+    .banner-image img {
+        max-width: 100%;
+    }
+
+    .banner-content {
+        margin: 0 15px;
+    }
+
+    .banner-content h1 {
+        font-size: 2em;
+    }
+
+    /* Plants section*/
+    .plants-part {
+        padding: 0;
+    }
+     
+    .plant-item-box button
+    .plant-item-box p,
+    .plant-item-box h3 {
+        font-size: 1em;
+    }
+    
+
+    .plant-item-box button {
+        padding: 18px 10px;
+    }
+
+    .plant-item-box img {
+        width: 100%;
+    }
+
+    .plants-item {
+        gap: 30px 20px;
+        grid-template-columns: repeat(2, 1fr);       
+    }
+
+    /* Lover section*/
+    .lover-part {
+        flex-direction: column;
+        padding: 65px 0;    
+        gap: 30px;
+    }
+
+    .lover-images img {
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    .lover-content ul {
+        padding-left: 20px;
+    }
+
+    .lover-content ul li {
+        margin-top: 15px;
+        font-size: 1em;
+        line-height: 22px;    
+    }
+
+    /* Deals Part */
+    .deals-part {
+        padding: 0px 0px 65px 0;
+    }
+
+    .deals-items {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .deals-left {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .deals-right {
+        width: 100%;
+    }
+
+    .deals-item::before {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .bloom-plant,
+    .ana-plant,
+    .zobo-plant {
+        height: 200px;
+    }
+
+    .zobo-plant h4 {
+        font-size: 1.25em;
+    }
+
+    .zobo-plant button {
+        font-size: 1em;
+    }
+
+    /* Join the colourful bunch css section*/
+    .joinp {
+        padding: 100px 0;
+    }
+
+    .join-content {
+        max-width: 90%;
+    }
+
+    input[type=email] {
+        width: 65%;
+    }
+
+    input[type=submit] {
+        width: 35%;
+    }
+
+    input[type=submit] {
+        padding: 15px 10px;
+    }
+
+    /* Footer Part */
+    footer {
+        padding: 50px 15px;
+    }
+
+    .footer-cnt {
+        gap: 30px;
+        grid-template-columns: repeat(1, 1fr);    
+    }
+
+    .footer-brand img {
+        width: 180px;
+    }
+
+    .icon-group {
+        justify-content: start;
+    }
+
+}
 
