@@ -118,4 +118,48 @@ nav {
 .banner-img {
     max-width: 570px;
 }
+/* Plants section */
+.plants-part,
+.lover-part,
+.deals-part {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.plants-part {
+    padding: 120px 0;
+}
+
+.plants-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+}
+
+.plant-item-box p {
+    text-align: center;
+    font-weight: 500;
+    color: var(--primary-color);
+    margin: 20px 0 10px;
+
+}
+
+.plant-item-box h3 {
+    text-align: center;
+    font-size: 1.35em;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.plant-item-box button {
+    width: 100%;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 18px 50px;
+    border: none;
+    color: #ffffff;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
 
