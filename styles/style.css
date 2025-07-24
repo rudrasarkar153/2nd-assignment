@@ -1,0 +1,121 @@
+/* body part style */
+body {
+    background-color: #f5f8ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+
+:root {
+    --primary-color: #000000;
+    --text-color: rgba(0, 0, 0, 0.5);
+    --accent-color: #E95A08;
+}
+
+.header-highlights {
+    color: var(--accent-color);
+    font-family: "Noto Serif", serif;
+}
+
+.mid-section-header {
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 3.15em;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.375em;
+    line-height: 28px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+/* header */
+header {
+    max-width: 1140px;
+    margin: auto;
+}
+/* nav items */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 120px 0;
+}
+
+.brand img {
+    width: 135px;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: end;
+    align-items: center
+}
+
+.main-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-menu ul li {
+    list-style: none;
+
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    margin-left: 48px;
+    color: var(--text-color);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main-menu ul li:first-child a {
+    font-weight: 700;
+    color: var(--primary-color) !important;
+}
+
+.menu-card a {
+    font-weight: 400 !important;
+    color: var(--primary-color) !important;
+}
+
+.menu-card i {
+    margin-right: 10px;
+}
+/* banner part */
+.banner {
+    padding: 100px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.banner-content {
+    max-width: 570px;
+}
+
+.banner-content h1 {
+    font-size: 4em;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    max-width: 570px;
+}
+
